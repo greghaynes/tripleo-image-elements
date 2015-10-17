@@ -1,6 +1,7 @@
 os-collect-config:
   installtype: package
 build-essential:
+language-pack-en:
 libxml2-dev:
 libz-dev:
 libxslt-dev:

@@ -1,4 +1,5 @@
 mysql-dev
+package-installs
 pip-and-virtualenv
 pip-manifest
 svc-map

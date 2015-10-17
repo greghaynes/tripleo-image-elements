@@ -46,7 +46,7 @@ if [ -z "$SERVICENAME" ] ; then
     usage 1
 fi
 
-MAPPED_SERVICE=$(map-services $SERVICENAME)
+MAPPED_SERVICE=$(svc-map $SERVICENAME)
 
 # get resource class (systemd, upstart, lsb). It should be possible
 # to use 'service' class which is a wrapper for others but this doesn't work
